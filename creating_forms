@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Forms</title>
+</head>
+<body>
+	
+<h1>Registration form</h1>
+<div id="reg-form">
+	<form>
+		<label for="first-name">First Name:</label>
+<input type="text" name="first-name" placeholder="Arya" required>		
+
+<label for="last-name">Last Name:</label>
+<input type="text" name="Last-name" placeholder="Mourya" required>	
+
+<div>
+	<label for="Gender">Male</label>
+	<input type="radio" name="gender" value="ch1">
+	<label for="Gender">Female</label>
+	<input type="radio" name="gender" value="ch2">
+	<label for="Gender">others</label>
+	<input type="radio" name="gender" value="ch3">
+
+
+
+</div>	
+<div>
+	<label for="email">Email</label>
+<input type="text" name="email" placeholder="xyz@gmail.com">
+<label for="Password">Password</label>
+<input type="Password" name="password" >
+
+
+
+
+
+</div>
+<div>
+	<label for="months">B'day</label>
+	<select name="month">
+	<option value="0">Month</option>	
+<option value="jan">January</option>
+<option value="Feb">Febrauary</option>
+
+
+
+
+
+
+	</select>
+</div>
+<div>
+	<label for="checkbox">I am agree to the all the terms</label>
+	<input type="checkbox" name="Agree">
+</div>
+<button type="Submit">Submit</button>
+
+
+
+
+
+	</form>
+</body>
+</html>
