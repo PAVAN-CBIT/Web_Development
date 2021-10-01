@@ -1,0 +1,116 @@
+<html>
+<head>
+<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+ <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"</script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui-min.js"
+                 integrity="sha256-VazP97ZCwtekAsvgPBSUwpFkdrwD3unUfSGVYrahUqU="
+                 crossorigin="anonymous"></script>
+                 <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css">
+
+<title>Sign Up</title>
+</head>
+  
+<style>
+
+body
+{
+ background-image:url(chip.jpg );
+
+
+}
+
+h1
+{
+   font-weight: bolder;
+
+
+}
+#SignUp
+{
+
+
+  background:linear-gradient(yellow,gray);
+  height: 75%;
+  width: 25%;
+  box-shadow: 20px 20px 18px darkmagenta ;
+  margin-left: 35%;  
+  margin-top: 10%;
+  border: 2px solid ghostwhite;
+
+}
+
+#btn2{
+     background: linear-gradient(red 90%,yellow);
+     color: white;
+     font-weight: bold;
+     width: 40%;
+     margin: 5px;
+}
+#btn1{
+     background: linear-gradient(green 90%,yellow);
+     color: white;
+     font-weight: bold;
+     width: 40%;
+     margin: 5px;
+}
+#inp1{
+
+  width: 90%;
+  margin: 2px;
+  border-radius: 10px;
+
+}
+#inp2{
+
+  width: 90%;
+}
+
+
+</style>
+<body>
+ 
+<div id="SignUp">
+  <h1 align="center">Sign Up !</h1><hr> 
+  <br>
+
+  Full Name:   <input id="inp1" type="text" placeholder="Enter your Full Name" required=" "
+  Email:  <input id="inp1" type="text" placeholder="Enter  your Email" required=""> 
+  Password:  <input id="inp1" type="Password"placeholder="Enter your Password" required=""> 
+  DOB:<input id="inp1" type="date" name="Birth day" placeholder="Enter"choose your DOB" required="">
+  Gender:
+   <form action=""> 
+    <input type="radio" name="gender" value="Male">Male
+    <input type="radio" name="gender" value="Female" >Female
+    <input type="radio" name="gender" value="Custom">Custom
+    
+
+                 
+ 
+
+   </form>
+
+<form>
+  
+  <button id="btn1" onclick="Hello()">Submit</button> 
+  <button id="btn2" onclick="Hello()">Cancel</button>
+</form>
+</div>                   
+<script>
+
+  
+
+  function Hello()
+  {
+
+     document.write("WELCOME TO JS");
+
+  }
+
+
+  </script>
+
+
+
+</body>
+
+</html>
